@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        ayoub: ['"Press Start 2P"', "cursive"],
+        ben: ['"Sacramento"', "cursive"],
+      },
+    },
   },
   plugins: [],
-}
+};
